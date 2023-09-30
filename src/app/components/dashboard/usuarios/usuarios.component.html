@@ -1,5 +1,7 @@
 <mat-toolbar>
     <span>Usuarios</span>
+    <div class="example-spacer"></div>
+      <button mat-raised-button routerLink="/dashboard/crear-usuario" color="primary">Agregar</button>
   </mat-toolbar>
 <div *ngIf="listUsuarios.length > 0">
   <mat-form-field>
